@@ -80,26 +80,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-/*
-int	main(void)
-{
-	int	count;
-	int	count2;
-	char	test;
-	int	hex_low;
-	int	*ptr;
-	int	num;
-	unsigned int un_int;
-
-	test = 'a';
-	hex_low = 42;
-	num = -0;
-	ptr = &num;
-	un_int = 4321234;
-	count = ft_printf("%d\n", num);
-	count2 = printf("%d\n", num);
-	printf("\n%d\n", count);
-	printf("\n%d\n", count2);
-	return (0);
-}
-*/
